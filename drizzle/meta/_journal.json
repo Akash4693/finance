@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1727870264577,
+      "tag": "0000_careless_leopardon",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1727876940687,
+      "tag": "0001_loose_zaladane",
+      "breakpoints": true
+    }
+  ]
+}

@@ -15,6 +15,20 @@
       "when": 1727876940687,
       "tag": "0001_loose_zaladane",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1728099729113,
+      "tag": "0002_sleepy_thaddeus_ross",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1728119960457,
+      "tag": "0003_supreme_sleepwalker",
+      "breakpoints": true
     }
   ]
 }

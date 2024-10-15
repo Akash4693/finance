@@ -1,8 +1,8 @@
+import { toast } from "sonner";
 import { InferRequestType, InferResponseType } from "hono";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 import { client } from "@/lib/hono";
-import { toast } from "sonner";
 
 type ResponseType = InferResponseType<typeof client.api.transactions["bulk-create"]["$post"]>
 type RequestType = InferRequestType<typeof client.api.transactions["bulk-create"]["$post"]>["json"];
@@ -26,7 +26,7 @@ export const useBulkCreateTransactions = () => {
     },
     onError: () => {
         toast.error("Failed to create transaction");
-    }
+    },
     })
 
   return mutation

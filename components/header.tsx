@@ -28,6 +28,7 @@ export const Header = () => {
           </div>
         </div>
         <WelcomeMsg />
+        <Filters />
       </div>
     </header>
   );

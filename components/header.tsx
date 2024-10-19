@@ -8,6 +8,7 @@ import { Navigation } from "./navigation";
 import { Loader2 } from "lucide-react";
 import { useMedia } from "react-use";
 import { WelcomeMsg } from "./welcome-msg";
+import { Filters } from "./filters";
 
 export const Header = () => {
   const isMobile = useMedia("(max-width: 1024px)", false);

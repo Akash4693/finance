@@ -103,18 +103,26 @@ export const DataCard = ({
     )
 }
 
+// 导出一个名为DataCardLoading的函数组件
 export const DataCardLoading = () => {
+    // 返回一个Card组件，包含CardHeader和CardContent两个子组件
     return (
         <Card className="border-none drop-shadow-sm h-[192px]">
+            {/* CardHeader组件，包含一个div和一个Skeleton组件 */}
             <CardHeader className="flex flex-row items-center justify-between gap-x-4">
                 <div className="space-y-2">
+                    {/* Skeleton组件，用于显示加载中的占位符 */}
                     <Skeleton className="h-6 w-24" />
                     <Skeleton className="h-4 w-40" />
                 </div>
+                {/* Skeleton组件，用于显示加载中的占位符 */}
                 <Skeleton className="size-12" />
             </CardHeader>
+            {/* CardContent组件，包含两个Skeleton组件 */}
             <CardContent>
+                {/* Skeleton组件，用于显示加载中的占位符 */}
                 <Skeleton className="shrink-0 h-10 w-24 mb-2" />
+                {/* Skeleton组件，用于显示加载中的占位符 */}
                 <Skeleton className="shrink-0 h-4 w-40" />
             </CardContent>
         </Card>
